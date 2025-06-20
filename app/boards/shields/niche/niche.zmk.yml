@@ -5,6 +5,7 @@ type: shield
 requires: [wonderboard]
 features:
   - keys
+  - studio
 siblings:
   - niche_left
   - niche_right

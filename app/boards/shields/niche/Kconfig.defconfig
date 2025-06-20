@@ -16,4 +16,7 @@ if SHIELD_NICHE_LEFT || SHIELD_NICHE_RIGHT
 config ZMK_SPLIT
     default y
 
+config ZMK_STUDIO
+    default y
+
 endif
