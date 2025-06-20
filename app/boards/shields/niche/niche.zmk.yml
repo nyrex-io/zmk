@@ -1,0 +1,10 @@
+file_format: "1"
+id: niche
+name: Niche
+type: shield
+requires: [wonderboard]
+features:
+  - keys
+siblings:
+  - niche_left
+  - niche_right

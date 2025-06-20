@@ -1,0 +1,9 @@
+file_format: "1"
+id: wonderboard
+name: wonderboard
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
+exposes: [wonderboard]
