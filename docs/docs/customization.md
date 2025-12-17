@@ -50,7 +50,7 @@ It is also possible to build firmware locally on your computer by following the 
 For normal keyboards, follow the same flashing instructions as before to flash your updated firmware.
 
 For [split keyboards](features/split-keyboards.md#building-and-flashing-firmware), only the central (left) side will need to be reflashed if you are just updating your keymap.
-More troubleshooting information for split keyboards can be found [here](troubleshooting/connection-issues.mdx#split-keyboard-halves-unable-to-pair).
+More troubleshooting information for split keyboards can be found [here](troubleshooting/connection-issues.mdx#split-keyboard-parts-unable-to-pair).
 
 ## Building Additional Keyboards
 
@@ -58,13 +58,13 @@ You can build additional keyboards with GitHub actions by appending them to `bui
 
 ```yaml
 include:
-  - board: nice_nano
+  - board: nice_nano@1
     shield: corne_left
-  - board: nice_nano
+  - board: nice_nano@1
     shield: corne_right
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: lily58_left
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: lily58_right
 ```
 
