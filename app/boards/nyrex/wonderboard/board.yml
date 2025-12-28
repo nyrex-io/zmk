@@ -1,0 +1,5 @@
+board:
+  name: wonderboard
+  vendor: nyrex
+  socs:
+  - name: nrf52840

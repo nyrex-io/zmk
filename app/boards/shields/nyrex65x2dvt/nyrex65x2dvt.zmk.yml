@@ -1,0 +1,12 @@
+file_format: "1"
+id: nyrex65x2dvt
+name: Nyrex 65x2 DVT
+type: shield
+url: https://nyrex.io
+requires: [wonderboard]
+features:
+  - keys
+  - studio
+siblings:
+  - nyrex65x2dvt_left
+  - nyrex65x2dvt_right
