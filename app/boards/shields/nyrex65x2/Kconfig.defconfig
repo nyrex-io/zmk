@@ -1,0 +1,22 @@
+# Copyright (c) 2020 Ryan Cross
+# SPDX-License-Identifier: MIT
+
+if SHIELD_NYREX65X2_LEFT
+ 
+config ZMK_KEYBOARD_NAME
+    default "Nyrex 65X2"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_NYREX65X2_LEFT || SHIELD_NYREX65X2_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_STUDIO
+    default y
+
+endif
