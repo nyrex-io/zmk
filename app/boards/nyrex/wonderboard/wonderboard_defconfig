@@ -22,3 +22,7 @@ CONFIG_FLASH_MAP=y
 
 CONFIG_ZMK_BLE=y
 CONFIG_ZMK_USB=y
+
+# Below not needed, battery reporting enabled with ZMK_BLE, report interval default 60s
+#CONFIG_ZMK_BATTERY_REPORTING=y
+#CONFIG_ZMK_BATTERY_REPORT_INTERVAL=60 # in seconds
