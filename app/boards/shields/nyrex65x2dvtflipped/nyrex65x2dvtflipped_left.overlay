@@ -1,0 +1,28 @@
+/*
+ * Copyright (c) 2020 Pete Johanson
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "nyrex65x2dvtflipped.dtsi"
+
+&kscan0 {
+    
+    col-gpios
+        = <&wonderboard 27 GPIO_ACTIVE_HIGH>
+        , <&wonderboard 28 GPIO_ACTIVE_HIGH>
+        , <&wonderboard 29 GPIO_ACTIVE_HIGH>
+        , <&wonderboard 30 GPIO_ACTIVE_HIGH>
+        , <&wonderboard 31 GPIO_ACTIVE_HIGH> 
+        , <&wonderboard 32 GPIO_ACTIVE_HIGH>
+        , <&wonderboard 33 GPIO_ACTIVE_HIGH>
+        ;
+
+    row-gpios
+        = <&wonderboard 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&wonderboard 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&wonderboard 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&wonderboard 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&wonderboard 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        ;
+};

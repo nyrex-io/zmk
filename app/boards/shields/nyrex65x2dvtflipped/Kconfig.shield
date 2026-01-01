@@ -1,0 +1,8 @@
+# Copyright (c) 2020 Ryan Cross
+# SPDX-License-Identifier: MIT
+
+config SHIELD_NYREX65X2DVTFLIPPED_LEFT
+    def_bool $(shields_list_contains,nyrex65x2dvtflipped_left)
+
+config SHIELD_NYREX65X2DVTFLIPPED_RIGHT
+    def_bool $(shields_list_contains,nyrex65x2dvtflipped_right)
